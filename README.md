@@ -4,3 +4,11 @@ Snack 1: useSwitch() – Toggle Booleano
     ✔️ - Inizialmente false.
     ✔️ - Ritorna il valore attuale e una funzione toggle() per cambiarlo.
     ✔️ - Quando toggle() viene chiamato, il valore passa da true → false e viceversa.
+
+
+Snack 2: useDate() – Ottenere la Data Attuale
+
+✅ - 1 Creare un custom hook che restituisca la data e l'ora correnti, aggiornandosi automaticamente ogni secondo.
+    ✔️ - Restituisce un oggetto con data e ora formattata.
+    ✔️ - Si aggiorna automaticamente ogni secondo.
+    ✔️ - Usa useEffect() per gestire l’aggiornamento.
