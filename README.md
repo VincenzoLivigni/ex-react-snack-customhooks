@@ -12,3 +12,11 @@ Snack 2: useDate() – Ottenere la Data Attuale
     ✔️ - Restituisce un oggetto con data e ora formattata.
     ✔️ - Si aggiorna automaticamente ogni secondo.
     ✔️ - Usa useEffect() per gestire l’aggiornamento.
+
+
+Snack 3: useCustomPointer() – Cambia il Cursore del Mouse
+
+✅ - 1 Creare un custom hook che sostituisca il cursore del mouse con un componente personalizzato.
+    ✔️ - Prende in input una stringa o un JSX component (es. un’emoji, un'icona, un'animazione).
+    ✔️ - Posiziona il componente al posto del puntatore del mouse.
+    ✔️ - Il componente segue i movimenti del mouse.
