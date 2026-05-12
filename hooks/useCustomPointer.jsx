@@ -22,7 +22,8 @@ export default function useCustomPointer(customPointer) {
             fontSize: "1.5rem",
             left: posizioneMouse.x,
             top: posizioneMouse.y,
-            transform: "translate(-50%, -50%)"
+            transform: "translate(-50%, -50%)",
+            cursor: "none"
         }}>
             {customPointer}
         </div>
